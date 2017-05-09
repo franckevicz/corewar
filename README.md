@@ -75,3 +75,14 @@ live:
   live %4
 zjmp %:live
 ```
+And after passing throught ./asm `./asm beegees.s` we'll have our champion with extention `.cor` that is ready to fight
+
+Now we can pass it to ./corewar `./corewar -v beegees.cor` -v is for visual representation(nCurses).
+
+```
+make
+./asm Players/player.s
+./corewar -v Players/player.cor Players/player.cor
+```
+
+Have fun!
