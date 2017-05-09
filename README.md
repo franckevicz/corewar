@@ -51,7 +51,8 @@ Here is the list of commands:
 ```
 
 The champion must be written in this "assembly" code in file with `.s` extention. It will look smth like this 
-```.name "stayin' alive"
+```
+.name "stayin' alive"
 .comment "Ha, Ha, Ha, stayiiiiin' aliiiiiiiiiive"
 	
 sti	r1,%:live,%1
