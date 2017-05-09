@@ -82,8 +82,20 @@ Now we can pass it to ./corewar `./corewar -v beegees.cor` -v is for visual repr
 
 ```
 make
-./asm Players/player.s
-./corewar -v Players/player.cor Players/player.cor
+./asm champs/Gagnant.s
+./corewar champs/Gagnant.cor -v
+```
+
+Usage:
+
+```
+Usage: ./core_war_src [-v] [-a] [-s] [-l] [-dump nbr_cycles] [[-n number] champion1.cor] ...
+-v     : Turns on visualizer
+-dump  : Dumps memory after nbr_cycles, then reads another nbr_cycles from standard input
+-n     : Sets the number of the next player
+-a     : Prints output from "aff"
+-s     : Turns on sound effect
+-l     : Reports executions of command live
 ```
 
 Have fun!
