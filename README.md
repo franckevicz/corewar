@@ -85,6 +85,12 @@ make
 ./asm champs/Gagnant.s
 ./corewar champs/Gagnant.cor -v
 ```
+On some systems asm works strange and can't compile the champs :( In that case you can use already compiled one.
+```
+./corewar champs/Gagnant_compiled.cor -v
+```
+In visualizer speed can be adjusted by keys `+` and `-`
+
 
 Usage:
 
